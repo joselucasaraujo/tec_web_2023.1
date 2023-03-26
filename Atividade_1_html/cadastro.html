@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tec. Web. Atv. 1</title>
+    </head>
+    <body>
+        <h1>Cadastro de ordem de serviço</h1>
+        <button onclick="document.location='index.html'">Voltar</button>
+        <div>
+            <form method="get">
+                <label for="nome">Nome do cliente:</label>
+                <br>
+                <input type="text" id="nome" name="nome">
+                <br>
+                <label for="cpf">CPF do cliente:</label>
+                <br>
+                <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                <br>
+                <label for="endereco">Endereço do cliente:</label>
+                <br>
+                <textarea type="text" id="endereco" name="endereco"></textarea>
+                <br>
+                <label for="modelo">Modelo do celular:</label>
+                <br>
+                <select name="modelo">
+                    <option value="">Selecione uma opção</option>
+                    <option value="Samsung Galaxy S23">Samsung Galaxy S23</option>
+                    <option value="Iphone 14" selected>Iphone 14</option>
+                    <option value="Xiaomi Mi 11">Xiaomi Mi 11</option>
+                  </select>
+                <br>
+                <label for="endereco">Relato do defeito:</label>
+                <br>
+                <textarea type="text" id="relato" name="relato"></textarea>
+                <br>
+                <label for="imgap">Imagem do aparelho:</label>
+                <br>
+                <input type="file" accept="image/*" id="imgap" src="" alt="Imagem" width="48" height="48">
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </body>
+</html>
