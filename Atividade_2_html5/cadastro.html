@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Filmes em Cartaz
+        </title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <progress value="70" max="100">70 %</progress>
+        <br>
+        <button onclick="document.location='index.html'">Voltar</button>
+        <form method="get">
+            <br>
+            <br>
+            <label for="datanasc">Data de Nascimento:</label>
+            <input name="datanasc" id="date" type="date">
+            <br>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input name="telefone" id="telefone" type="tel">
+            <br>
+            <label for="mes">Mês de Adesão:</label>
+            <input name="mes" id="mes" type="month">
+            <br>
+            <label for="numfilmes">Número de Filmes Semanais:</label>
+            <input name="numfilmes" id="numfilmes" type="range" min="1" max="7">
+            <br>
+            <label for="cor">Cor de preferência:</label>
+            <input name="cor" id="cor" type="color">
+            <br>
+            <label for="enderecopagina">Endereço da Página Pessoal do cliente:</label>
+            <input name="enderecopagina" id="enderecopagina" type="url">
+            <br>
+            <label for="hrcupom">Data e Hora para utilizar cupom de primeira compra:</label>
+            <input name="dtcupom" id="dtcupom" type="date">
+            <input name="hrcupom" id="dthrcupom" type="time">
+            <br>
+            <label for="preferencia">Preferência:</label>
+            <ul>
+                <li>                    
+                    <label for="preferenciaacao">Ação:</label>
+                    <input name="preferenciaacao" id="preferenciaacao" type="range" min="1" max="10">
+                </li>
+                <li>                    
+                    <label for="preferenciadrama">Drama:</label>
+                    <input name="preferenciadrama" id="preferenciadrama" type="range" min="1" max="10">
+                </li>
+                <li>                    
+                    <label for="preferenciaromance">Romance:</label>
+                    <input name="preferenciaromance" id="preferenciaromance" type="range" min="1" max="10">
+                </li>
+                <li>                    
+                    <label for="preferenciacomedia">Comédia:</label>
+                    <input name="preferenciacomedia" id="preferenciacomedia" type="range" min="1" max="10">
+                </li>
+                <li>                    
+                    <label for="preferenciasuspense">Suspense:</label>
+                    <input name="preferenciasuspense" id="preferenciasuspense" type="range" min="1" max="10">
+                </li>
+                <li>                    
+                    <label for="preferenciaterror">Terror:</label>
+                    <input name="preferenciaterror" id="preferenciaterror" type="range" min="1" max="10">
+                </li>
+                <li>                    
+                    <label for="preferenciaficcao">Ficção Científica:</label>
+                    <input name="preferenciaficcao" id="preferenciaficcao" type="range" min="1" max="10">
+                </li>
+            </ul>
+            
+            <br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>
