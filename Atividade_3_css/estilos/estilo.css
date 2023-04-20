@@ -1,0 +1,73 @@
+body {
+    align-content: center;
+    display: grid;
+}
+
+.container {
+    position: relative;
+    background-color: bisque;
+    width: 50%;
+    margin: 50px;
+    margin-top: 0px !important;
+    padding: 50px;
+    border: 5px ridge yellow;
+}
+.container form {
+    display: table;
+    width: 100%;
+}
+.container form label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+#progress {
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    margin: 5rem;
+}
+
+.card {
+    position: relative;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.card header {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5px;
+    border: 5px solid blueviolet;
+}
+
+.card footer {
+    text-align: center;
+}
+
+#botao-detalhes {
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bolder;
+    color: azure;
+    background-color: blue;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.content {
+    display: flex !important;
+    position: relative !important;
+}

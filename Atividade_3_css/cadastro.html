@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Filmes em Cartaz
+        </title>
+        <meta charset="UTF-8"/>
+        <link href="estilos/estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="progress">
+                <button><a href="index.html"><img src="./images/voltar.png" style="width: 20px; height: 20px;"></a></button>            
+                <progress value="70" max="100">70 %</progress>
+            </div>
+            <br>
+            <form method="get">
+                <br>
+                <br>
+                <p>
+                    <label for="datanasc">Data de Nascimento:</label>
+                    <input name="datanasc" id="date" type="date">
+                </p>
+                <br>
+                <p>
+                    <label for="email">Email:</label>
+                    <input name="email" id="email" type="email">                    
+                </p>
+                <br>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input name="telefone" id="telefone" type="tel">                    
+                </p>
+                <br>
+                <p>
+                    <label for="mes">Mês de Adesão:</label>
+                    <input name="mes" id="mes" type="month">
+                </p>
+                <br>
+                <p>
+                    <label for="numfilmes">Número de Filmes Semanais:</label>
+                    <input name="numfilmes" id="numfilmes" type="range" min="1" max="7">
+                </p>
+                <br>
+                <p>
+                    <label for="cor">Cor de preferência:</label>
+                    <input name="cor" id="cor" type="color">
+                </p>
+                <br>
+                <p>                   
+                    <label for="enderecopagina">Endereço da Página Pessoal do cliente:</label>
+                    <input name="enderecopagina" id="enderecopagina" type="url"> 
+                </p>
+                <br>
+                <p>
+                    <label for="hrcupom">Data e Hora para utilizar cupom de primeira compra:</label>
+                    <input name="dtcupom" id="dtcupom" type="date">
+                    <input name="hrcupom" id="dthrcupom" type="time">
+                </p>
+                <br>
+                <p>
+                    
+                </p>
+                <label for="preferencia">Preferência:</label>
+                <ul>
+                    <li>                    
+                        <label for="preferenciaacao">Ação:</label>
+                        <input name="preferenciaacao" id="preferenciaacao" type="range" min="1" max="10">
+                    </li>
+                    <li>                    
+                        <label for="preferenciadrama">Drama:</label>
+                        <input name="preferenciadrama" id="preferenciadrama" type="range" min="1" max="10">
+                    </li>
+                    <li>                    
+                        <label for="preferenciaromance">Romance:</label>
+                        <input name="preferenciaromance" id="preferenciaromance" type="range" min="1" max="10">
+                    </li>
+                    <li>                    
+                        <label for="preferenciacomedia">Comédia:</label>
+                        <input name="preferenciacomedia" id="preferenciacomedia" type="range" min="1" max="10">
+                    </li>
+                    <li>                    
+                        <label for="preferenciasuspense">Suspense:</label>
+                        <input name="preferenciasuspense" id="preferenciasuspense" type="range" min="1" max="10">
+                    </li>
+                    <li>                    
+                        <label for="preferenciaterror">Terror:</label>
+                        <input name="preferenciaterror" id="preferenciaterror" type="range" min="1" max="10">
+                    </li>
+                    <li>                    
+                        <label for="preferenciaficcao">Ficção Científica:</label>
+                        <input name="preferenciaficcao" id="preferenciaficcao" type="range" min="1" max="10">
+                    </li>
+                </ul>
+                
+                <br>
+                <p id="submit">
+                    <input type="submit" value="Cadastrar">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
